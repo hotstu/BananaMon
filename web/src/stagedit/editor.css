@@ -1,0 +1,24 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.checked {
+    background-color: aqua;
+}
+#wrapper {
+}
+canvas {
+    background-color: #443c67;
+    width: 1200px;
+    height: 600px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    margin: auto;
+    display: block;
+}
